@@ -1,0 +1,108 @@
+body
+{
+    display:flex;
+    flex-direction: row-reverse;
+    font-size: 1.1em;
+}
+header h1
+{
+ margin-top: 120px;
+ margin-bottom: 0px;
+}
+header h2
+{
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+header h2 strong
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(79,195,247); 
+}
+h1
+{
+        font-size: 2.5em;
+}
+h1 strong
+{
+    color: rgb(79,195,247);
+}
+ul li
+{
+    list-style: none;
+}
+section
+{
+    margin-top: 80px;
+}
+section i
+{
+    margin-right: 25px;
+}
+aside
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    background-color: rgb(79,195,247);
+}
+aside h2
+{
+    background-color: black;
+    color: rgb(79,195,247);
+    text-align: center;
+}
+section h2
+{
+    background: url('img/separateur.png') repeat-x bottom;
+    background-size: 1em;
+    padding-bottom: 10px;
+}
+#contenu
+{
+    display: block;
+    margin-left: 60px;
+}
+img
+{
+    border-radius: 100%;
+    box-shadow: 8px 8px 10px 0.3px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contact ul
+{
+    text-align: left;
+}
+#moi p
+{
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#moi
+{
+    flex-grow: 1;
+}
+#loisirs i
+{
+    margin-bottom: 45px;
+    margin-top: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+#formation li
+{
+    list-style: disc;
+}
+#exp li
+{
+    list-style: disc;
+}
+#recommandations ul
+{
+    display: inline-block;
+    margin-right:300px;
+}
