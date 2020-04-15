@@ -6,8 +6,8 @@ body
 }
 header h1
 {
- margin-top: 120px;
- margin-bottom: 0px;
+    margin-top: 120px;
+     margin-bottom: 0px;
 }
 header h2
 {
@@ -21,7 +21,7 @@ header h2 strong
 }
 h1
 {
-        font-size: 2.5em;
+    font-size: 2.5em;
 }
 h1 strong
 {
@@ -72,6 +72,7 @@ img
 }
 #contact ul
 {
+    font-weight: bold;
     text-align: left;
 }
 #moi p
@@ -94,7 +95,6 @@ img
 #formation li
 {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
 }
 #formation p
@@ -102,29 +102,51 @@ img
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left: auto;
 }
 #formation strong
 {
     font-weight: bold;
+    font-size: 1.1em;
 }
 #exp li
 {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
+    justify-content: flex-end;
 }
 #exp p
 {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left: auto;
 }
 #exp strong
 {
     font-weight: bold;
+    font-size: 1.1em;
 }
 #recommandations ul
 {
     display: inline-block;
-    margin-right:300px;
+    margin-right:20%;
 }
+#recommandations
+{
+    font-weight: bold;
+}
+
+.fas
+{
+    color: rgb(79,195,247);
+}
+.far
+{
+    color: rgb(79,195,247);
+}
+#icones .fas
+{
+    color: black;
+}
+
