@@ -151,16 +151,35 @@ img
  
 @media all and (max-width: 1024px)
 {
-    #contenu
+    body
     {
         width: auto;
+        display:flex;
+        flex-direction: column;
+    }
+    header
+    {
+        text-align: center;
+    }
+    footer
+    {
+        width: auto;
+        display:flex;
+        text-align: center;
     }
     h1
     {
-         font-size: 1.2em; 
+        font-size: 2.5em;
     }
     img
     {
-        float: right;
+        width: 125px;
+        height: 125px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #contact p
+    {
+        display: inline-flex;
     }
 }
