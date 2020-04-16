@@ -16,8 +16,7 @@ header h2
 }
 header h2 strong
 {
-    text-decoration: underline;
-    text-decoration-color: rgb(79,195,247); 
+border-bottom: 2px rgb(79,195,247) solid;
 }
 h1
 {
@@ -37,14 +36,14 @@ section
 }
 section i
 {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 section h2
 {
     padding-bottom: 10px;
     border-bottom: 2px rgb(79,195,247) solid;
 }
-aside
+footer
 {
     width: 20%;
     display: flex;
@@ -52,7 +51,7 @@ aside
     text-align:center;
     background-color: rgb(79,195,247);
 }
-aside h2
+footer h2
 {
     background-color: black;
     color: rgb(79,195,247);
@@ -70,10 +69,11 @@ img
     margin-left: 60px;
     margin-right: 60px;
 }
-#contact ul
+#contact p
 {
     font-weight: bold;
     text-align: left;
+    margin-left: 35px;
 }
 #moi p
 {
@@ -127,7 +127,7 @@ img
     font-weight: bold;
     font-size: 1.1em;
 }
-#recommandations ul
+#recommandations div
 {
     display: inline-block;
     margin-right:20%;
@@ -136,7 +136,6 @@ img
 {
     font-weight: bold;
 }
-
 .fas
 {
     color: rgb(79,195,247);
@@ -149,4 +148,19 @@ img
 {
     color: black;
 }
-
+ 
+@media all and (max-width: 1024px)
+{
+    #contenu
+    {
+        width: auto;
+    }
+    h1
+    {
+         font-size: 1.2em; 
+    }
+    img
+    {
+        float: right;
+    }
+}
