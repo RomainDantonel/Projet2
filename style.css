@@ -76,7 +76,6 @@ img
     font-weight: bold;
     text-align: left;
     margin-left: 35px;
-    word-wrap: break-word;
 }
 #moi p
 {
@@ -193,24 +192,23 @@ img
     #formation li
     {
         display: flex;
-        flex-direction: column;
-        align-items: left; 
+        flex-direction: column; 
         margin-right: 30px;
     }
     #formation p
     {
-        width: auto;
+        width: 100%;
     }
     #exp li
     {
         display: flex;
         flex-direction: column;
-        align-items: left; 
+        align-content: left; 
         margin-right: 30px;
     }
     #exp p
     {
-        width: auto;
+        width: 100%;
     }
     #recommandations div
     {
