@@ -30,7 +30,15 @@ ul li
 {
     list-style: none;
 }
-section
+#formation
+{
+    margin-top: 80px;
+}
+#exp
+{
+    margin-top: 80px;
+}
+#recommandations
 {
     margin-top: 80px;
 }
@@ -43,7 +51,7 @@ section h2
     padding-bottom: 10px;
     border-bottom: 2px rgb(79,195,247) solid;
 }
-footer
+#bandeau
 {
     width: 28%;
     display: flex;
@@ -51,7 +59,7 @@ footer
     text-align:center;
     background-color: rgb(79,195,247);
 }
-footer h2
+#bandeau h2
 {
     background-color: black;
     color: rgb(79,195,247);
@@ -115,7 +123,6 @@ img
 {
     display: flex;
     align-items: baseline;
-    justify-content: flex-end;
 }
 #exp p
 {
@@ -163,7 +170,7 @@ img
     {
         text-align: center;
     }
-    footer
+    #bandeau
     {
         width: auto;
         display:flex;
@@ -182,33 +189,43 @@ img
     }
     #contenu
     {
-        text-align: left;
-        margin: auto;
+        margin: auto;  
     }
     #contenu h2
     {
         font-size: 1.2em;
     }
-    #formation li
+    #formation li i
     {
-        display: flex;
-        flex-direction: column; 
+        float: left;
+        margin-top: 2px;
+        padding-bottom: 5px;
+    }
+    #formation  li, strong p
+    {
+        display:inline-block;  
         margin-right: 30px;
     }
     #formation p
     {
         width: 100%;
+        margin-left: 30px;
     }
-    #exp li
+    #exp li i
     {
-        display: flex;
-        flex-direction: column;
-        align-content: left; 
+        float: left;
+        margin-top: 2px;
+        padding-bottom: 5px;
+    }
+    #exp  li, strong p
+    {
+        display:inline-block;  
         margin-right: 30px;
     }
     #exp p
     {
         width: 100%;
+        margin-left: 30px;
     }
     #recommandations div
     {
