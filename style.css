@@ -30,7 +30,15 @@ ul li
 {
     list-style: none;
 }
-section
+#formation
+{
+    margin-top: 80px;
+}
+#exp
+{
+    margin-top: 80px;
+}
+#recommandations
 {
     margin-top: 80px;
 }
@@ -43,7 +51,7 @@ section h2
     padding-bottom: 10px;
     border-bottom: 2px rgb(79,195,247) solid;
 }
-footer
+#bandeau
 {
     width: 28%;
     display: flex;
@@ -51,7 +59,7 @@ footer
     text-align:center;
     background-color: rgb(79,195,247);
 }
-footer h2
+#bandeau h2
 {
     background-color: black;
     color: rgb(79,195,247);
@@ -94,6 +102,12 @@ img
     padding-left: 8px;
     padding-right: 8px;
 }
+#formation i
+{
+    float: left;
+    margin-top: 30px;
+    padding-right: 10px;
+}
 #formation li
 {
     display: flex;
@@ -111,11 +125,16 @@ img
     font-weight: bold;
     font-size: 1.1em;
 }
+#exp i
+{
+    float: left;
+    margin-top: 30px;
+    padding-right: 10px;
+}
 #exp li
 {
     display: flex;
     align-items: baseline;
-    justify-content: flex-end;
 }
 #exp p
 {
@@ -163,7 +182,7 @@ img
     {
         text-align: center;
     }
-    footer
+    #bandeau
     {
         width: auto;
         display:flex;
@@ -182,12 +201,15 @@ img
     }
     #contenu
     {
-        text-align: left;
-        margin: auto;
+        margin: auto;  
     }
     #contenu h2
     {
         font-size: 1.2em;
+    }
+    #formation i
+    {
+        margin-top: 15px;
     }
     #formation li
     {
@@ -199,11 +221,14 @@ img
     {
         width: 100%;
     }
+    #exp i
+    {
+        margin-top: 15px;
+    }
     #exp li
     {
         display: flex;
         flex-direction: column;
-        align-content: left; 
         margin-right: 30px;
     }
     #exp p
