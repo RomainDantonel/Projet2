@@ -104,8 +104,6 @@ img
 }
 #formation li i
 {
-    float: left;
-    margin-top: 30px;
     padding-right: 10px;
 }
 #formation li
@@ -115,7 +113,7 @@ img
 }
 #formation p
 {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 65%;
     margin-left: auto;
@@ -127,8 +125,6 @@ img
 }
 #exp li i
 {
-    float: left;
-    margin-top: 30px;
     padding-right: 10px;
 }
 #exp li
@@ -201,7 +197,8 @@ img
     }
     #contenu
     {
-        margin: auto;  
+        margin-left: 10px;
+        margin-right: 10px;
     }
     #contenu h2
     {
@@ -210,37 +207,43 @@ img
     #formation li i
     {
         float: left;
-        margin-top: 2px;
-        padding-bottom: 5px;
+        padding-top: 15px;
     }
-    #formation  li, strong p
+    #formation li, strong p
     {
-        display:inline-block;  
-        margin-right: 30px;
+        display: block;
+        margin-right: 25px; 
+    }
+    #formation ul
+    {
+        padding-left: 0px;
     }
     #formation p
     {
         width: 100%;
-        margin-left: 38px;
+        margin-left: 40px;
     }
     #exp li i
     {
         float: left;
-        margin-top: 2px;
-        padding-bottom: 5px;
+        padding-top: 15px;
     }
-    #exp  li, strong p
+    #exp li, strong p
     {
-        display:inline-block;  
-        margin-right: 30px;
+        display: block;  
+        margin-right: 25px;
+    }
+    #exp ul
+    {
+        padding-left: 0px;
     }
     #exp p
     {
         width: 100%;
-        margin-left: 38px;
+        margin-left: 40px;
     }
     #recommandations div
     {
-        margin-left: 30px;
+        margin-left: 40px;
     }
 }
